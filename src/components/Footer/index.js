@@ -9,14 +9,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to="/">The Resto</SocialLogo>
-            <SocialIcons>
-              <SocialIconLink href="/" target="_blank" aria-label="Facebook" rel="noopener" noreferrer>
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href="/" target="_blank" aria-label="Youtube" rel="noopener" noreferrer>
-                <FaYoutube />
-              </SocialIconLink>
-            </SocialIcons>
+            
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>

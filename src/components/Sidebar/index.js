@@ -1,8 +1,10 @@
 import React from 'react'
+import { Router } from 'react-router';
 import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SidebarRoute, SideBtnWrap } from "./Sidebar";
 
 const Sidebar = ({isOpen, toggle}) => {
   return (
+    
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
         <CloseIcon />
@@ -12,10 +14,11 @@ const Sidebar = ({isOpen, toggle}) => {
         <SidebarLink to="/">Desserts</SidebarLink>
         <SidebarLink to="/">Full Menu</SidebarLink>
       </SidebarMenu>
-      <SideBtnWrap>
-        <SidebarRoute to="/">Order Now</SidebarRoute>
-      </SideBtnWrap>
+      
+
+
     </SidebarContainer>
+    
   );
 };
 
