@@ -2,6 +2,7 @@ import React from 'react'
 import { Router } from 'react-router';
 import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SidebarRoute, SideBtnWrap } from "./Sidebar";
 
+
 const Sidebar = ({isOpen, toggle}) => {
   return (
     
@@ -10,12 +11,13 @@ const Sidebar = ({isOpen, toggle}) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Pizza</SidebarLink>
-        <SidebarLink to="/">Desserts</SidebarLink>
-        <SidebarLink to="/">Full Menu</SidebarLink>
+        <SidebarLink to="/"></SidebarLink>
+        <SidebarLink to="/pizza">Pizza</SidebarLink>
+        <SidebarLink to="/dessert">Desserts</SidebarLink>
+        <SidebarLink to="/Full">Full Menu</SidebarLink>
       </SidebarMenu>
       
-
+       
 
     </SidebarContainer>
     
@@ -23,3 +25,4 @@ const Sidebar = ({isOpen, toggle}) => {
 };
 
 export default Sidebar;
+
