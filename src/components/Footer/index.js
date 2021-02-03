@@ -8,8 +8,10 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
+
             <SocialLogo to="/">The Resto</SocialLogo>
              
+
           </SocialMediaWrap>
         </SocialMedia>
       </FooterWrap>
