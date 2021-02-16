@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaFacebook, FaYoutube, FaInstagram, FaTwitter } from 'react-icons/fa';
 import { FooterContainer, FooterWrap, SocialMedia, SocialMediaWrap, SocialLogo, SocialIcons, SocialIconLink } from "./Footer";
 
 const Footer = () => {
@@ -10,7 +9,7 @@ const Footer = () => {
           <SocialMediaWrap>
 
             <SocialLogo to="/">The Resto</SocialLogo>
-             
+            <SocialLogo to="/">Fabiola Benitez - 2021</SocialLogo> 
 
           </SocialMediaWrap>
         </SocialMedia>

@@ -11,14 +11,11 @@ const Sidebar = ({isOpen, toggle}) => {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/"></SidebarLink>
-        <SidebarLink to="/pizza">Pizza</SidebarLink>
-        <SidebarLink to="/dessert">Desserts</SidebarLink>
-        <SidebarLink to="/Full">Full Menu</SidebarLink>
+        <SidebarLink to="/">Home</SidebarLink>
+        <SidebarLink to="./Pages/Page-1.jsx">Pizza</SidebarLink>
+        <SidebarLink to="./Pages/Page-2.jsx">Desserts</SidebarLink>
+        <SidebarLink to="./Pages/Page-3.jsx">Full Menu</SidebarLink>
       </SidebarMenu>
-      
-       
-
     </SidebarContainer>
     
   );
