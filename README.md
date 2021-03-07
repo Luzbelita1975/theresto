@@ -1,10 +1,10 @@
 
-<h1>:pizza: React Pizza</h1>
+<h1>The Resto</h1>
 
 *Ecommerce template built using React and styled-components*
 <br /> 
 
-[Visit Site](https://nikkipeel.github.io/react-pizza)
+[Visit Site]
 <br />
 
 :gem: **Features:**
@@ -14,22 +14,22 @@
 
 
 ### Hero Section &darr;
-<img src="src/images/hero.png" alt="hero section" width="100%" height="auto" />
+
 <br />
 
 ### Navigation &darr;
-<img src="src/images/navbar.png" alt="navigation" width="100%" height="auto" />
+
 <br />
 
 ### Menu &darr;
-<img src="src/images/pizza-menu.png" alt="pizza menu" width="100%" height="auto" />
+
 <br />
 
 ### Featured/Specials &darr;
-<img src="src/images/feature-final.png" alt="specials" width="100%" height="auto" />
+
 <br />
 
 ### Desserts &darr;
-<img src="src/images/dessert-menu.png" alt="dessert menu" width="100%" height="auto"/>
+
 <br />
 
